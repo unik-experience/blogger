@@ -1,5 +1,5 @@
 # Blogger
-> Simple platform to publish articles listed categories
+> Simple platform to publish articles listed by categories
 
 ## Installation
 
