@@ -7,12 +7,15 @@ Confirmed (Already pushed one commit)
 * Wael El Hachimi
 * Ismail Mechbal
 
-Confirmed (Did not push any commit)
+Unconfirmed (Did not push any commit)
 * Mohamed El Hachimi
 * Nabil Kadimi
 * Amine Kadimi
 * Youssef Lmrabti (Works with Ismail)
 * Oussama Benidir (Works with Ismail)
+
+# Project Management
+All the tasks will be set in Trello following Kanban method
 
 
 ## Installation
