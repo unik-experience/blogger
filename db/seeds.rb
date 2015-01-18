@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Category.delete_all # For avoiding duplicate content
+
+Category.create!({name: 'design'}) # Use create! so you'll know if there is any errors
+Category.create!({name: 'tech'})
