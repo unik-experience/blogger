@@ -3,6 +3,9 @@
     .six.columns
       = f.label :title
       = f.text_field :title, class: "u-full-width", placeholder: "Title"
+    .six.columns
+      = f.label :category
+      = f.collection_select(:category_id, @categories, :id, :name, {},{class: "u-full-width"})
   = f.label :body
   = f.text_area :body, class: "u-full-width", placeholder: "Your Article goes here"
   = f.submit "Save", class: "button-primary"
