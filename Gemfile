@@ -16,6 +16,7 @@ gem 'spring',        group: :development
 #Custom
 gem 'haml'
 gem 'sassy_skeleton', :git => 'git://github.com/elhachimi/sassy_skeleton'
+# gem 'sassy_skeleton', path: "../sassy_skeleton"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

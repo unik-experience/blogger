@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/elhachimi/sassy_skeleton
-  revision: 3a028e1b2af0e14801ebcd2095611ad3852908a1
+  revision: d674f7cbcc3ce968aab367e787d80ec917e06038
   specs:
-    sassy_skeleton (0.0.0)
+    sassy_skeleton (2.0.4)
 
 GEM
   remote: https://rubygems.org/
