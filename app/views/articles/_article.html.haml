@@ -1,4 +1,6 @@
 #article_listing
 	%h3.title= link_to article.title, article
 	.content= article.body
-	.meta=	article.created_at
+	.meta= time_ago_in_words(article.created_at)
+
+
