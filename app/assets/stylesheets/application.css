@@ -13,7 +13,46 @@
  *= require_tree .
  *= require_self
  */
-
+.navbar, .navbar-spacer {
+	border-top: 0;
+	padding-bottom: 6px;
+}
+.navbar-item-right {
+	float: right;
+}
+.button {
+	padding: 0 16px;
+	outline: 0;
+	color: rgba(0,0,0,0.44);
+	background: rgba(0,0,0,0);
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.15);
+	vertical-align: bottom;
+	white-space: nowrap;
+	text-rendering: auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	box-sizing: border-box;
+	border-radius: 999em;
+	-webkit-transition: 100ms background-color,100ms border-color,100ms color;
+	transition: 100ms background-color,100ms border-color,100ms color;
+	letter-spacing: -0.02em;
+	font-weight: 400;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: "liga" on;
+}
+.button--primary {
+	border-color: #a9d8b2;
+	color: #57ad68;
+}
 .meta {
 	color: rgba(0,0,0,0.3);
 	font-size: 13px;
