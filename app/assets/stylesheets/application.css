@@ -21,6 +21,9 @@
 .navbar-item-right {
 	float: right;
 }
+textarea {
+	height: auto;
+}
 .button {
 	padding: 0 16px;
 	outline: 0;
