@@ -1,6 +1,6 @@
 .container.container--article--detail
-	%h1.article--title--detail= @article.title
-	%p.article--body--detail= @article.body
+	%h1.article--title= @article.title
+	%p.article--body= @article.body
 	.metabar.metabar--bottom
 		= link_to "Edit", edit_article_path(@article), class: "button button-primary"
 		= link_to "Delete", article_path(@article), class: "button", method: :delete
