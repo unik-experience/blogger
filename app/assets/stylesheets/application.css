@@ -16,9 +16,13 @@
 .navbar, .navbar-spacer {
 	border-top: 0;
 	padding-bottom: 6px;
+	height: 4.5rem;
 }
 .navbar-item-right {
 	float: right;
+}
+textarea {
+	height: auto;
 }
 .button {
 	padding: 0 16px;
@@ -53,36 +57,80 @@
 	border-color: #a9d8b2;
 	color: #57ad68;
 }
+.article--listing {
+	padding: 25px 0 32px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.container--article--detail {
+	margin-top: 80px;
+}
+.article--title {
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	letter-spacing: -0.02em;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+	margin: 40px 0;
+}
+.article--title a {
+	color: #000;
+	text-decoration: none;
+}
+.article--body {
+	font-family: Cambria,"Times New Roman",Times,serif;
+	letter-spacing: 0.01rem;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 1.5;
+}
 .meta {
 	color: rgba(0,0,0,0.3);
 	font-size: 13px;
 }
 /*style pagination*/
-.digg_pagination{
+.digg--pagination {
 	text-align: center;
 }
-.digg_pagination .previous_page,.digg_pagination .next_page{
-padding: 2px;
-border: 1px solid;
-border-radius: 4px;
-margin: 1px 2px; 
+.digg--pagination .previous_page,.digg--pagination .next_page {
+	padding: 2px;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 1px 2px; 
 }
-.digg_pagination a
-{
-padding: 2px;
-border: 1px solid;
-border-radius: 4px;
-margin: 1px 2px; 	
-text-decoration: none;
+.digg--pagination a {
+	padding: 2px;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 1px 2px; 	
+	text-decoration: none;
 }
-.digg_pagination .current
-{
-font-style:normal;
-padding: 2px;
-border: 1px solid;
-border-radius: 4px;
-margin: 1px 2px; 	
+.digg--pagination .current {
+	font-style:normal;
+	padding: 2px;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 1px 2px; 	
 }
-.digg_pagination .page_info{
-margin: 11px 0;
+.digg--pagination .page_info {
+	margin: 11px 0;
+}
+.metabar {
+	display: block;
+	z-index: 500;
+	width: 100%;
+	font-size: 14px;
+	color: rgba(0,0,0,0.3);
+	letter-spacing: -0.02em;
+	font-weight: 400;
+	font-style: normal;
+	box-sizing: border-box;
+	-webkit-transition: 200ms background-color,200ms color;
+	transition: 200ms background-color,200ms color;
+}
+.metabar--bottom {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	height: 50px;
 }

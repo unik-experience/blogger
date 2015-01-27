@@ -1,7 +1,7 @@
-.container
+.container.container--article
   %ul
     = render @articles
-  %div.digg_pagination
-    %div.page_info
+  %div.digg--pagination
+    %div.page--info
       = page_entries_info @articles 
     = will_paginate @users, :container => false
