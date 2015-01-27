@@ -6,7 +6,7 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
-    @categories = Category.all
+    @categories = categories
   end
 
   def create
@@ -22,6 +22,7 @@ class ArticlesController < ApplicationController
 
   def edit
     @article = Article.find(params[:id])
+    @categories = categories
   end
 
   def update
@@ -39,6 +40,10 @@ class ArticlesController < ApplicationController
   end
 
   private
+
+  def categories
+    @_categories ||= Category.all
+  end
 
   def article_params
     params.require(:article).permit(:title, :body, :category_id)
