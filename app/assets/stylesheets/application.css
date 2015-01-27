@@ -57,3 +57,32 @@
 	color: rgba(0,0,0,0.3);
 	font-size: 13px;
 }
+/*style pagination*/
+.digg_pagination{
+	text-align: center;
+}
+.digg_pagination .previous_page,.digg_pagination .next_page{
+padding: 2px;
+border: 1px solid;
+border-radius: 4px;
+margin: 1px 2px; 
+}
+.digg_pagination a
+{
+padding: 2px;
+border: 1px solid;
+border-radius: 4px;
+margin: 1px 2px; 	
+text-decoration: none;
+}
+.digg_pagination .current
+{
+font-style:normal;
+padding: 2px;
+border: 1px solid;
+border-radius: 4px;
+margin: 1px 2px; 	
+}
+.digg_pagination .page_info{
+margin: 11px 0;
+}
