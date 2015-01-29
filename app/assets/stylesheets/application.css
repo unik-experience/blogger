@@ -134,3 +134,18 @@ textarea {
 	bottom: 0;
 	height: 50px;
 }
+.navbar-category-list {
+	float: left;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.navbar-category-list a{
+	text-decoration:none;
+	color: black;
+}
+.navbar-category-list a.current{
+	text-decoration: none;
+	color: black;
+	border-bottom: rgb(0, 0, 0) 2px solid;
+	padding-bottom: 20px;
+}

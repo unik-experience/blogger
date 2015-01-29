@@ -3,5 +3,12 @@
     %ul.navbar-list
       %li.navbar-item
         = link_to image_tag('logo.png'), root_path, class: 'navbar-link'
+      - @categories.each do |category|
+        %li.navbar-category-list
+          -@e= params[:category]
+          -if @e.to_i.eql? category.id
+            =link_to category.name , "/articles/category/#{category.id}",class: "current"
+          -else
+            = link_to category.name , "/articles/category/#{category.id}"
       %li.navbar-item-right
         = link_to "New article", new_article_path, class: 'button button--primary'
