@@ -22,5 +22,6 @@ gem 'sassy_skeleton', :git => 'git://github.com/elhachimi/sassy_skeleton'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'factory_girl'
+  gem 'faker'
 end
 gem 'will_paginate'
