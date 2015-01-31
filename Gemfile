@@ -21,5 +21,6 @@ gem 'sassy_skeleton', :git => 'git://github.com/elhachimi/sassy_skeleton'
 # gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl'
 end
 gem 'will_paginate'
