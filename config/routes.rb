@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'articles#index'
   resources :categories
   resources :articles, only:[:index, :show, :new, :create, :edit, :update, :destroy]
+    get 'articles/category/:category' => 'articles#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

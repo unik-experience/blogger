@@ -1,7 +1,12 @@
 class ArticlesController < ApplicationController
   
   def index
-    @articles = Article.paginate(:page => params[:page]) 
+    @categories=Category.all
+    if params[:category]      
+      @articles = Article.paginate(:page => params[:page]).where("category_id =#{params[:category]}") 
+    else
+      @articles = Article.paginate(:page => params[:page]) 
+    end
   end
 
   def new
@@ -22,7 +27,7 @@ class ArticlesController < ApplicationController
 
   def edit
     @article = Article.find(params[:id])
-    @categories = categories
+    @categories = Category.all
   end
 
   def update
