@@ -6,12 +6,12 @@
 Confirmed (Already pushed one commit)
 * Wael El Hachimi
 * Ismail Mechbal
+* Youssef Lmrabti (Works with Ismail)
 
 Unconfirmed (Did not push any commit)
 * Mohamed El Hachimi
 * Nabil Kadimi
 * Amine Kadimi
-* Youssef Lmrabti (Works with Ismail)
 * Oussama Benidir (Works with Ismail)
 
 # Project Management
